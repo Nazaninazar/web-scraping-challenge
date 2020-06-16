@@ -12,7 +12,7 @@ Completed initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Re
 
 ### NASA Mars News
 
-* Scrape the [NASA Mars News Site](https://mars.nasa.gov/news/) and collect the latest News Title and Paragraph Text. Assigned the text to variables that I can reference later.
+* Scrape the [NASA Mars News Site](https://mars.nasa.gov/news/) and collected the latest News Title and Paragraph Text. Assigned the text to variables that I can reference later.
 
 ```python
 # Example:
@@ -38,7 +38,7 @@ featured_image_url = 'https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA1
 
 ### Mars Weather
 
-* Visited the Mars Weather twitter account [here](https://twitter.com/marswxreport?lang=en) and scrape the latest Mars weather tweet from the page. Saved the tweet text for the weather report as a variable called `mars_weather`.
+* Visited the Mars Weather twitter account [here](https://twitter.com/marswxreport?lang=en) and scraped the latest Mars weather tweet from the page. Saved the tweet text for the weather report as a variable called `mars_weather`.
 
 ```python
 # Example:
@@ -49,7 +49,7 @@ mars_weather = 'Sol 1801 (Aug 30, 2017), Sunny, high -21C/-5F, low -80C/-112F, p
 
 * Visited the Mars Facts webpage [here](https://space-facts.com/mars/) and used Pandas to scrape the table containing facts about the planet including Diameter, Mass, etc.
 
-* Use Pandas to convert the data to a HTML table string.
+* Used Pandas to convert the data to a HTML table string.
 
 ### Mars Hemispheres
 
